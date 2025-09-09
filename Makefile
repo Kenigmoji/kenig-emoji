@@ -12,8 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-EMOJI = NotoColorEmoji
-EMOJI_WINDOWS = NotoColorEmoji_WindowsCompatible
+EMOJI = kenig-emoji
+EMOJI_WINDOWS = kenig-emoji-windows
 all: $(EMOJI).ttf $(EMOJI_WINDOWS).ttf
 
 CFLAGS = -std=c99 -Wall -Wextra `pkg-config --cflags --libs cairo`
@@ -194,9 +194,9 @@ $(COMPRESSED_DIR)/%.png: $(QUANTIZED_DIR)/%.png | check_tools $(COMPRESSED_DIR)
 # Make 3.81 can endless loop here if the target is missing but no
 # prerequisite is updated and make has been invoked with -j, e.g.:
 # File `font' does not exist.
-#      File `NotoColorEmoji.tmpl.ttx' does not exist.
+#      File `KenigEmoji.tmpl.ttx' does not exist.
 # File `font' does not exist.
-#      File `NotoColorEmoji.tmpl.ttx' does not exist.
+#      File `KenigEmoji.tmpl.ttx' does not exist.
 # ...
 # Run make without -j if this happens.
 
