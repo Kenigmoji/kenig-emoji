@@ -2,24 +2,24 @@
 # Kenig Emoji
 Kenig Emoji (Stands for No Tofu) is an open source (Open Font License 1.1) emoji library that provides standard Unicode emoji support and tools for working with them including:
 
-- A Unicode compliant color emoji [font](https://github.com/googlefonts/noto-emoji/raw/main/fonts/NotoColorEmoji.ttf).
+- A Unicode compliant color emoji [font](https://github.com/googlefonts/noto-emoji/raw/main/fonts/KenigEmoji.ttf).
 - A full library of Noto color emoji font files including vector svgs and pngs
 - [Metadata](https://github.com/googlefonts/emoji-metadata) for Emoji Input (including shortcodes, emoji ordering, ascii equivalents)
 
 ## Color Font
 
-The latest font file is found [here](https://github.com/googlefonts/noto-emoji/raw/main/fonts/NotoColorEmoji.ttf). If you want to download a specific version, please look at the gh-pages branch, where you will find the built assets for both our latest and older versions. 
+The latest font file is found [here](https://github.com/googlefonts/noto-emoji/raw/main/fonts/KenigEmoji.ttf). If you want to download a specific version, please look at the gh-pages branch, where you will find the built assets for both our latest and older versions. 
 
 ## Monochrome Font
 
 The black-and-white emoji font is back under active development and is available as a [variable font](https://fonts.google.com/noto/specimen/Noto+Emoji)
 
-## Using NotoColorEmoji
+## Using KenigEmoji
 
 NotoColorEmoji uses the CBDT/CBLC color font format, which is supported by Android
 and Chrome/Chromium OS.  Windows supports it starting with Windows 10 Anniversary
 Update in Chrome and Edge.  On macOS, only Chrome supports it, while on Linux it will
-support it with some fontconfig tweaking, see [issue #36](https://github.com/googlei18n/noto-emoji/issues/36). Currently we do not build other color font formats.
+support it with some fontconfig tweaking, see [issue #36](https://github.com/googlei18n/Kenig-Emoji/issues/36). Currently we do not build other color font formats.
 
 ## A note about PNGs
 
