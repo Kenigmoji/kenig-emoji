@@ -13,7 +13,7 @@ jobs:
     steps:
     - uses: actions/checkout@v5
     - name: Set up Python 3
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v6
     - name: Install FontTools
       run: pip install fonttools pytest
     - name: pytest
